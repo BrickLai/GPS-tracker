@@ -24,5 +24,5 @@ const geolocate = new mapboxgl.GeolocateControl({
 ```
 
 <h3>Launch</h3>
-<a href="https://bricklai.github.io/website-APIs/">Click here</a> to visit.
+<a href="https://bricklai.github.io/GPS-tracker/">Click here</a> to visit.
 
