@@ -1,0 +1,57 @@
+@import "./reset.css";
+
+:root {
+    --app-bg-dark: #1a1d28;
+    --app-red: #ff3c57;
+    --app-green: #33ab4e;
+    --app-blue: #3c57ff;
+    --app-purple: #833cff;
+    --app-orange: #ff833c;
+}
+
+body {
+    background-color: var(--app-bg-dark);
+}
+
+header {
+    width: auto;
+    height: 56px;
+    display: flex;
+    background-color: #3a71f2;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-logo {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    padding-right: 200px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px 0 20px;
+}
+
+.nav-avatar {
+    padding-left: 200px;
+    position: relative;
+}
+
+section {
+    padding: 60px 320px;
+    height:calc(100vh - 56px)
+    }
+
+.cookies {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
